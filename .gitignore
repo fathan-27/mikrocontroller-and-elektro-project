@@ -1,0 +1,108 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+# --- ARDUINO & ESP32 ---
+# Mengabaikan file hasil kompilasi/build Arduino IDE
+*.pyc
+*.elf
+*.hex
+*.bin
+*.d
+*.o
+
+# Mengabaikan folder build otomatis versi baru
+**/build/
+**/out/
+
+# Mengabaikan file konfigurasi lokal Arduino IDE
+.string.cache
+.compiler.cache
+
+# --- RASPBERRY PI & PYTHON ---
+# Mengabaikan folder cache Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Mengabaikan virtual environment Python jika Anda pakai
+.venv/
+venv/
+ENV/
+
+# --- EDITORS & SYSTEM (VS Code / Windows / Mac) ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# --- SECURITY & SECRETS ---
+.env
+.env.local
+.env.*
+secrets.h
+credentials.json
