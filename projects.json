@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "game dodge",
+    "description": ".",
+    "fullDescription": "Jelaskan cara kerja, tujuan, dan langkah perakitan proyek Anda. Gunakan \\n untuk membuat paragraf baru.",
+    "image": "images/foto-proyek.jpg",
+    "schematic": "images/skema-rangkaian.png",
+    "codeUrl": "code/proyek-anda.ino",
+    "category": "Arduino",
+    "difficulty": "Pemula",
+    "duration": "30 menit",
+    "components": [
+      "Arduino Uno",
+      "Sensor atau komponen utama",
+      "Kabel jumper"
+    ],
+    "tags": [
+      "Elektronika",
+      "Arduino"
+    ]
+  }
+]
